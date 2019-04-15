@@ -1,13 +1,14 @@
 //import libraries for making component
 import React from 'react';
 import { Text, View } from 'react-native';
+//import console = require('console');
 
 //make a component
 
 const Header = (props) =>{
 
     const {textStyle, viewStyle}=styles;
-
+    console.log('henlo!');
     return (
         <View style={viewStyle}>
             <Text style={ textStyle }>{props.headerText}</Text>
